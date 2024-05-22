@@ -4,15 +4,13 @@
 }
 
 main{
-    width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     background: linear-gradient(135deg, #153677, #4e085f);
     padding: 10px;
 }
 
 .todoApp{
-    width: 100%;
-    max-width: 35vw;
+    width: 35vw;
     background: #fff;
     margin: 100px auto 20px;
     padding: 40px 30px 70px;
@@ -41,13 +39,14 @@ input{
     border: none;
     outline: none;
     background: transparent;
-    padding: 10px;
+    padding: 2vw;
 }
 
 button{
     border: none;
     outline: none;
-    padding: 16px 50px;
+    padding: 2vh 3vw;
+    margin-right: 0.7vw;
     background: #ff5945;
     color: #fff;
     font-size: 16px;
@@ -109,14 +108,19 @@ ul li span:hover{
 }
 
 @media only screen and (min-width: 300px) and (max-width: 500px){
+    
+    .row{
+        padding-left: 0px;
+
+    }
+
     .todoApp{
         min-width: 70vw;
-        margin-left: 20px;
+        margin-left: 4vw;
     }
 
     button{
-
-        padding: 12px 25px;
+        padding: 2vh 6vw;
     }
 
 }
